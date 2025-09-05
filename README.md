@@ -55,10 +55,20 @@ pip install -r requirements.txt
    - Launch Interactive Brokers TWS (Trader Workstation) or IB Gateway
    - Enable API connections: Configure → Global Configuration → API → Settings
    - Check "Enable ActiveX and Socket Clients"
-   - Note the socket port (default: 7497 for TWS Paper, 7496 for TWS Live)
+   - Note the socket port number from your TWS/Gateway settings
 
-2. **Configure the script** (optional)
-   - Edit the configuration section in `get_hist.py` if needed
+2. **Configure Port Settings**
+   - Open `get_hist.py` and locate line 61: `IB_PORT = 4001`
+   - Change this port number to match your TWS/Gateway port
+   - **Common port numbers:**
+     - TWS Paper Trading: 7497
+     - TWS Live Trading: 7496  
+     - IB Gateway Paper: 4002
+     - IB Gateway Live: 4001
+   - **Important:** The port in the code MUST match your TWS/Gateway port setting
+
+3. **Additional Configuration** (optional)
+   - Edit other settings in the configuration section of `get_hist.py` if needed
    - Default settings work for most use cases
 
 ## Usage
