@@ -163,7 +163,7 @@ The script includes configuration variables at the top for:
 ### Connection Issues
 - Ensure TWS or IB Gateway is running
 - Check that API connections are enabled in TWS settings
-- Verify the correct port number (default 7497 for paper trading)
+- Verify the port number matches between your code (line 61) and TWS/Gateway settings
 - Make sure no other applications are using the same client ID
 
 ### Data Issues
