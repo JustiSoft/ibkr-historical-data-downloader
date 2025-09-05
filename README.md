@@ -184,4 +184,4 @@ This project is provided as-is for educational and personal use. Please ensure c
 
 Feel free to submit issues, feature requests, or pull requests to improve this tool.
 
-**Note**: This repository uses branch protection rules. All changes must be submitted via pull requests, even for repository owners.
+**Note**: This repository uses branch protection rules. External contributions must be submitted via pull requests for security review.
