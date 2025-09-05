@@ -32,7 +32,7 @@ This script provides an easy-to-use command-line interface for:
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/ibkr-historical-data-downloader.git
+git clone https://github.com/JustiSoft/ibkr-historical-data-downloader.git
 cd ibkr-historical-data-downloader
 ```
 
